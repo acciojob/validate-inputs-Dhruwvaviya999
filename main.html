@@ -10,11 +10,11 @@
 	<!-- the entire body must be written by student -->
 	<form id="form">
 		<label for="name">Name: </label><br/>
-		<input class="in-valid" pattern="[A-Za-z]{3,}" type="text" id="name" /><br/><br/>
+		<input required class="in-valid" pattern="[A-Za-z]{3,}" type="text" id="name" /><br/><br/>
 		<label for="name">Email: </label><br/>
-		<input class="in-valid" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="text" id="email" /><br/><br/>
+		<input required class="in-valid" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="text" id="email" /><br/><br/>
 		<label for="name">Phone: </label><br/>
-		<input class="in-valid" pattern="[0-9]{10}" type="text" id="phone" /><br/><br/>
+		<input required class="in-valid" pattern="[0-9]{10}" type="text" id="phone" /><br/><br/>
 
 		<button class="in-valid" type="submit" >Submit</button>
 	</form>
