@@ -1,1 +1,9 @@
 /*  your css code here. If applicable */
+
+.in-valid{
+	background-color: pink;
+}
+
+.valid{
+	background-color: lightgreen;
+}
